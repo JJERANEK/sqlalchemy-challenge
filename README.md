@@ -13,30 +13,30 @@ This section of the assignment uses Python and SQLAlchemy to do a basic climate 
 ## Precipitation Analysis (See climate_starter.ipynb)
 
 In this section of the assignment, the following needed to be completed:
-- 1) Find the most recent date in the dataset
-- 2) Using that date, get the previous 12 months of precipiation data by querying the previous 12 months of data
-- 3) Select only the "date" and "prcp" values
-- 4) Load the query results into a Pandas DataFrame, and set the index to the "date" column
-- 5) Sort the DataFrame values by "date"
-- 6) Plot the results by using the DataFrame plot method
-- 7) Use Pandas to print the summary statistics for the precipitation data
+1) Find the most recent date in the dataset
+2) Using that date, get the previous 12 months of precipiation data by querying the previous 12 months of data
+3) Select only the "date" and "prcp" values
+4) Load the query results into a Pandas DataFrame, and set the index to the "date" column
+5) Sort the DataFrame values by "date"
+6) Plot the results by using the DataFrame plot method
+7) Use Pandas to print the summary statistics for the precipitation data
 
 After completing these steps in Jupyter Notebook, the resulting chart is as follows:
-![Precipitation Graph](Exports/precipitation_chart.png)
+![Precipitation Graph](SurfsUp/Exports/precipitation_chart.png)
 
 Summary statistics:
-![Summary Statistics](Resources/summary_statistics.png)
+![Summary Statistics](SurfsUp/Resources/summary_statistics.png)
 
 ## Station Analysis (See climate_starter.ipynb)
 
 In this section of the assignment, the following needed to be completed:
-- 1) Design a query to calculate the total number of stations in the dataset
-- 2) Design a query to find the most-active stations
-- 3) Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query
-- 4) Design a query to get the previous 12 months of temperature observations (tobs) data (and plot the results as a histogram)
+1) Design a query to calculate the total number of stations in the dataset
+2) Design a query to find the most-active stations
+3) Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query
+4) Design a query to get the previous 12 months of temperature observations (tobs) data (and plot the results as a histogram)
 
 After completing these steps, the histogram is as follows:
-![Temp Histogram](Exports/temperature_hist.png)
+![Temp Histogram](SurfsUp/Exports/temperature_hist.png)
 
 # Part Two: Climate App (See app.py)
 
