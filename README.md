@@ -22,10 +22,10 @@ In this section of the assignment, the following needed to be completed:
 - 7) Use Pandas to print the summary statistics for the precipitation data
 
 After completing these steps in Jupyter Notebook, the resulting chart is as follows:
-![Precipitation Graph](Exports/precipitation_chart.png)
+![Precipitation Graph](SurfsUp/Exports/precipitation_chart.png)
 
 Summary statistics:
-![Summary Statistics](Resources/summary_statistics.png)
+![Summary Statistics](SurfsUp/Resources/summary_statistics.png)
 
 ## Station Analysis (See climate_starter.ipynb)
 
@@ -36,7 +36,7 @@ In this section of the assignment, the following needed to be completed:
 - 4) Design a query to get the previous 12 months of temperature observations (tobs) data (and plot the results as a histogram)
 
 After completing these steps, the histogram is as follows:
-![Temp Histogram](Exports/temperature_hist.png)
+![Temp Histogram](SurfsUp/Exports/temperature_hist.png)
 
 # Part Two: Climate App (See app.py)
 
